@@ -1,19 +1,16 @@
 * {
-margin: 0;
-padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 .header {
-display: flex;
-list-style-type: none;
-
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 10.5px;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    color: #474747;
+    background-color: #ffffff;
+    gap: 34px;
+    padding: 13px;
 }
-
-/* #search-glass {
-height: 10px;
-width: 10px; */
-
-}
-
-
-
