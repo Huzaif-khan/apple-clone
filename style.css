@@ -134,7 +134,7 @@ button {
     color: #0077ed;
 }
 
-/* img-3 */
+/* image-3 */
 
 .img-3 {
     margin-top: 10px;
@@ -142,6 +142,5 @@ button {
     background-size: cover;
     width: 100%;
     height: 520px;
-
-
+    background-position: center;
 }
