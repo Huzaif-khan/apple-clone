@@ -4,23 +4,26 @@
 }
 
 body {
-    /* real color */
-    /* background-color: #f5f5f7; */
     background-color: black;
+    padding-top: 42px;
 }
+
 
 .header {
     font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 10px;
     display: flex;
     justify-content: center;
-    position: fixed;
     list-style-type: none;
     color: #323232;
     background-color: rgb(255, 253, 253);
     gap: 34px;
-    z-index: 1;
     padding: 12px 0 12px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 .icon {
@@ -143,4 +146,67 @@ button {
     width: 100%;
     height: 520px;
     background-position: center;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.series-11 {
+    font-weight: lighter;
+}
+
+.img-3 h1 {
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 45px;
+    text-align: center;
+    padding-top: 40px;
+    opacity: 0.83;
+}
+
+.img-3 h3 {
+    margin-top: 8px;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-weight: normal;
+    font-size: x-large;
+    opacity: 0.83;
+}
+
+.img_3-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+/* hero-section-combine-images-1 */
+
+.parent {
+    height: 540px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.small-box-1 {
+    margin: 10px 5px 10px 10px;
+    /* margin: auto; */
+    
+    padding-left: 10px;
+    background-color: gray;
+    height: 520px;
+    width: 492px;
+}
+
+.small-box-2 {
+    /* margin: 10px 10px 10px 5px; */
+    /* margin: auto; */
+    background-color: yellow;
+    height: 520px;
+    width: 492px;
 }
