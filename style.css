@@ -33,9 +33,9 @@ body {
     padding: 3px 0 0 0;
 }
 
-     /* hero-section */
+/* hero-section */
 
-    /* image-1 */
+/* image-1 */
 
 .hero-section {
     background-image: url(./assets/mob.jpeg);
@@ -91,7 +91,7 @@ button {
     color: white;
 }
 
-    /* image-2 */
+/* image-2 */
 
 .img-2 {
     background-image: url(./assets/airpod.jpeg);
@@ -139,7 +139,7 @@ button {
     font-weight: lighter;
 }
 
-    /* hero-section-combine-images-1 */
+/* hero-section-combine-images-1 */
 
 .bottom h1 {
     font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -235,29 +235,18 @@ button {
     width: 492px;
 }
 
-    /* footer */
+/* footer */
 
-.footer {
-height: 525px;
-width: 100%;
-background-color: #1d1d1f;
-color: white;
+li {
+    list-style-type: none;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.footer {
+padding-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 525px;
+    width: 100%;
+    background-color: #1d1d1f;
+    color: white;
+}
