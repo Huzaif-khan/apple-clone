@@ -237,16 +237,67 @@ button {
 
 /* footer */
 
-li {
+.footer li {
+    color: #cbcbcb;
     list-style-type: none;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 11px;
+    padding-bottom: 10px;
+}
+
+.another-li {
+    padding-top: 15px;
+}
+
+h6 {
+    color: #cbcbcb;
+    font-weight: 800;
+    font-size: 11px;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
 }
 
 .footer {
-padding-top: 20px;
+    padding-top: 15px;
     display: flex;
     justify-content: space-evenly;
-    height: 525px;
+    height: 400px;
     width: 100%;
     background-color: #1d1d1f;
     color: white;
+}
+
+/* last div */
+
+.last-div {
+    height: 100px;
+    width: 100%;
+    /* background-color: yellow; */
+    background-color: #1d1d1f;
+    color: #8a8a8b;
+    font-weight: bold;
+    font-size: 11px;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+div a {
+    color: #2681d7;
+}
+
+.p1 {
+    padding: 20px 0 20px 65px;
+    border-bottom: 1px solid #5f5f60;
+}
+
+.p2 {
+    padding: 20px 0 0 65px;
+
+}
+
+.p2 span {
+    font-weight: bold;
+    color: rgb(233, 231, 231);
+    border-left: 1px solid #5f5f60;
+    margin-left: 5px;
+    padding-left: 5px;
 }
